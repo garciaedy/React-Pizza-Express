@@ -5,10 +5,8 @@ class Description extends Component {
     render() {
         return (
             <div className="description">
-
               <img src={pizzaoven}/>
-         
-       
+    
             </div>
         );
     }
