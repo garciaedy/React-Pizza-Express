@@ -8,7 +8,7 @@ class Location extends Component {
             <div className="locations">
         <a name="locations"></a>
                 
-                <h1>LOCATIONS</h1>
+          
                
                 {locationData.map((location, i) => {
                     return <LocationList key={i} location={location}/>
